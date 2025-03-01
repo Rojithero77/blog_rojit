@@ -1,0 +1,100 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'rojitfont';
+    src: url('Shizuru-Regular.ttf');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('cr7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: pink;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-family: 'rojitfont';
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 10px 0;
+    font-family: 'rojitfont';
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #ff6600;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.blog-posts {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.blog-posts h2 {
+    color: #ff6600;
+    text-align: center;
+    font-family: 'rojitfont';
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post h3 {
+    color: #ff6600;
+    font-family: 'rojitfont';
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-family: 'rojitfont';
+}
